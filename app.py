@@ -1,3 +1,4 @@
+import xgboost as xgb
 from flask import Flask
 from applicationinsights.flask.ext import AppInsights
 app = Flask(__name__)
